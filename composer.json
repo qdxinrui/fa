@@ -15,7 +15,7 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "fa\\": "src/fast/"
+      "fast\\": "src/fast/"
     }
   }
 }
