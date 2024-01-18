@@ -1,0 +1,25 @@
+{
+  "name": "xr/fa",
+  "type": "package",
+  "description": "core package for firemax",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "alex",
+      "email": "tangxinzhang@126.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2|^8.2",
+    "ext-gd": "*",
+    "illuminate/support": "~5|^6|^7|^8|^9|^10",
+    "illuminate/config": "~5|^6|^7|^8|^9|^10",
+    "illuminate/container": "^10.0"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "fa": "src/"
+    }
+  },
+}
